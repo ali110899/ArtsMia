@@ -17,7 +17,7 @@ public class DBConnect {
 			HikariConfig config = new HikariConfig();
 			config.setJdbcUrl(jdbcURL);
 			config.setUsername("root");
-			config.setPassword("");
+			config.setPassword("alice110899");
 			
 			//configurazione mysql
 			config.addDataSourceProperty("cachePrepStmts", "true");
